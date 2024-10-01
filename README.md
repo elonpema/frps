@@ -19,6 +19,8 @@
 安装
 ```shell
 wget https://raw.githubusercontent.com/elonpema/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
+国内下载
+curl -O https://ghp.ci/https://github.com/elonpema/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 ```
 
 使用
@@ -32,6 +34,8 @@ sudo systemctl restart frps
 卸载
 ```shell
 wget https://raw.githubusercontent.com/elonpema/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
+国内下载
+curl -O https://ghp.ci/https://github.com/elonpema/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
 ```
 
 ### 自定义一键脚本(先 fork 本仓库,在自行修改 frps.toml 文件后执行脚本.)
