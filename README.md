@@ -18,9 +18,7 @@
 ### 一键脚本(先执行脚本,在自行修改 frps.toml 文件.)
 安装
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
-# 以下为国内镜像
-wget https://github.ioiox.com/stilleshan/frps/raw/branch/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
+wget https://raw.githubusercontent.com/elonpema/frps/master/frps_linux_install.sh && chmod +x frps_linux_install.sh && ./frps_linux_install.sh
 ```
 
 使用
@@ -33,9 +31,7 @@ sudo systemctl restart frps
 
 卸载
 ```shell
-wget https://raw.githubusercontent.com/stilleshan/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
-# 以下为国内镜像
-wget https://github.ioiox.com/stilleshan/frps/raw/branch/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
+wget https://raw.githubusercontent.com/elonpema/frps/master/frps_linux_uninstall.sh && chmod +x frps_linux_uninstall.sh && ./frps_linux_uninstall.sh
 ```
 
 ### 自定义一键脚本(先 fork 本仓库,在自行修改 frps.toml 文件后执行脚本.)
